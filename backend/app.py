@@ -23,7 +23,7 @@ def get_users():
 @app.route("/")
 def home():
     return """
-<h1>Welcome to Flask App</h1>
+<h1>Welcome to Flask App by binit maharjan</h1>
 <p>Use the following curl commands to interact with the API:</p>
 <ul>
 <li><b>View users:</b><br>
