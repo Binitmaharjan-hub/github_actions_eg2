@@ -54,13 +54,5 @@ jobs:
             binitmaharjan/github-action-learn-demo2:${{ github.sha }}
             binitmaharjan/github-action-learn-demo2:${{ github.run_number }}
 
-  deploy:
-    runs-on: self-hosted
-    needs: build
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
 
-      - name: Run docker compose
-        run: docker compose up -d --build
 
